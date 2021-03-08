@@ -4,5 +4,5 @@
 						   Sprawozdanie nr.10
 
 						        Lab1 
-![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/lab1/lab1_screeny/appka.png)
+![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/lab1/lab1_screeny/appka.jpg)
 
