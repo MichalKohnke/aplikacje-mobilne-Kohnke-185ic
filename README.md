@@ -21,3 +21,9 @@
 ![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki2/lab2_screeny/1ekran.jpg)
 ![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki2/lab2_screeny/2ekran.jpg)
 ![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki2/lab2_screeny/3ekran.jpg)
+
+							Opis
+1. Do zadania wykorzystano Expo. Na telefonie poprzez aplikację Expo GO.
+2. Każda strona jest napisana w osobnym pliku, zaś app.js obsługuje ich deklarację i poruszanie się pomiędzy nimi.
+3. App.js zawiera: 
+	createNavigator - do 
