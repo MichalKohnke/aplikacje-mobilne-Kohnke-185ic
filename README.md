@@ -14,3 +14,10 @@
 5. Zaś funkcja operate() już wykorzystuje i działa na wcześniej zadeklarowanych operacjach ustawiając je w odpowiednim miejscu w wyrażeniu.
 6. Funkcja render to już tworzenie widoku dla elementów kalkulatora na zasadzie wierszy i kolumn.
 7. Znajdziemy również styles - dostosowanie widoku, wielkość czcionki, rozmieszczenie, kolory itp.
+
+							Sprawozdanie nr.2
+
+						  Screeny aplikacji z telefonu
+![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki2/lab2_screeny/1ekran.jpg)
+![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki2/lab2_screeny/2ekran.jpg)
+![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki2/lab2_screeny/3ekran.jpg)
