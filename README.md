@@ -24,7 +24,7 @@
 
 							Opis
 1. Do zadania wykorzystano Expo. Na telefonie poprzez aplikację Expo GO.
-2. Każda strona jest napisana w osobnym pliku, zaś app.js obsługuje ich deklarację i poruszanie się pomiędzy nimi.
+2. 2. Każda strona jest napisana w osobnym pliku, zaś app.js obsługuje ich deklarację i poruszanie się pomiędzy nimi.
 3. App.js zawiera: 
 	createNavigator - obsługa ekranów, sposobu nawigacji po między nimi oraz ich rozmieszczenia jak i domyślnie wyświetlanej strony(initialRouteName)
 	Platform - możliwość ustawienia przykładowo nawigacji pod konkretną platformę(Android, iOS)
@@ -35,7 +35,7 @@
 							Sprawozdanie nr.3
 							
 1.Do zadania wykorzystano Expo. Na telefonie poprzez aplikację Expo GO.
-2. Aplikacja posiada 3 ekrany główne, trzeci jest podzielony na kolejne 3. 
+2.2. Aplikacja posiada 3 ekrany główne, trzeci jest podzielony na kolejne 3. 
 
 						Screeny aplikacji z telefonu - 1 ekran
 ![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki3/lab3_screeny/listcontainer.jpg)
