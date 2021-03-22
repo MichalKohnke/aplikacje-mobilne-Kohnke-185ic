@@ -83,9 +83,15 @@ Trzeci ekran - progres krokowy, podział na 3 ekrany, elementy ActivityIndicator
 Na każdym ekranie znajduje się element ActivityIndicator różnorako wystylizowany, przyciski na górze ekranu są odpowiedzialne za przenoszenie się pomiędzy stronami.
 
 Pliki:
+
 StepProgress - ustawienie ekranów za pomocą react-navigation, ich rozmieszczenia jak i np. domyślnej strony
+
 First - wygląd pierwszego ekranu, element AcitivityIndicator oraz opcje navigationOptions(tytuł headera, przyciski do zmiany strony na poprzednią/kolejną)
+
 Second - podobnie jak wyżej, odpowiednio dostosowane opcje navigationOptions pod drugi ekran oraz inaczej wystylizowany element AcitivityIndicator
+
 Third - jak wyżej
+
 ProgressBar - zdefiniowany pasek progresu(zmieniający się w zależności od ekranu, na którym się znajdujemy)
+
 ProgressBarComponent - komponent definiujący pasek pod androida
