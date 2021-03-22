@@ -42,12 +42,19 @@
 ![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki3/lab3_screeny/search.jpg)
 
 Pierwszy ekran - sortowanie i filtrowanie danych; 100 liczb pseudolosowych:
+
 Sortowanie poprzez strzałkę w prawym górnym rogu, filtrowanie przez wyszukiwanie(czy wpisana liczba zawiera się w którejś z wylosowanych).
+
 Pliki do 1 ekranu:
+
 ListContainer-główny "pojemnik", do wyświetlenia wszystkiego na ekranie i do niego podpięte są kolejne komponenty, tu znajdziemy też funkcje losowania liczb czy warunki sortowania
+
 List - określa sposób wyświetlania listy i pobiera jej elementy, tu również podpięty jest kolejny komponent
+
 ListControls - komponent obsługujący zmiany stanu listy(filtrowanie czy sortowanie), przekazywany do list, pobierający komponenty ListFilter i ListSort
+
 ListFilter - komponent określający/sterujący filtrowaniem listy, tu też zdefiniowana wyszukiwarka
+
 ListSort - podobnie jak wyżej, komponent sterujący sortowaniem listy, zdefiniowany przycisk do sortowania
 
 						Screeny aplikacji z telefonu - 2 ekran
