@@ -24,7 +24,7 @@
 
 							Opis
 1. Do zadania wykorzystano Expo. Na telefonie poprzez aplikację Expo GO.
-2. 2. Każda strona jest napisana w osobnym pliku, zaś app.js obsługuje ich deklarację i poruszanie się pomiędzy nimi.
+2. Każda strona jest napisana w osobnym pliku, zaś app.js obsługuje ich deklarację i poruszanie się pomiędzy nimi.
 3. App.js zawiera: 
 	createNavigator - obsługa ekranów, sposobu nawigacji po między nimi oraz ich rozmieszczenia jak i domyślnie wyświetlanej strony(initialRouteName)
 	Platform - możliwość ustawienia przykładowo nawigacji pod konkretną platformę(Android, iOS)
@@ -35,7 +35,8 @@
 							Sprawozdanie nr.3
 							
 1.Do zadania wykorzystano Expo. Na telefonie poprzez aplikację Expo GO.
-2.2. Aplikacja posiada 3 ekrany główne, trzeci jest podzielony na kolejne 3. 
+
+2. Aplikacja posiada 3 ekrany główne, trzeci jest podzielony na kolejne 3. 
 
 						Screeny aplikacji z telefonu - 1 ekran
 ![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki3/lab3_screeny/listcontainer.jpg)
@@ -61,10 +62,15 @@ ListSort - podobnie jak wyżej, komponent sterujący sortowaniem listy, zdefinio
 ![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki3/lab3_screeny/lazy.jpg)
 
 Drugi ekran - leniwe ładowanie na przykładzie pseudolosowych liter(podpisanych numeracją)
+
 Leniwe ładowanie działa w sposób, w którym na początku ładowana jest określona ilość danych, a gdy jest potrzeba wyświetlenia kolejnych(wykona się konkretna akcja), są one "doładowywane". 
+
 Pliki do 2 ekranu:
+
 ListContainerLazy - ponownie główny "pojemnik", pobiera listę i funkcję i wyświetla ekran
+
 ListLazy - określa sposób wyświetlania listy i przekazuje do ListContainerLazy, właściwość onEndReached wykorzystana do leniwego ładowania
+
 api - określona funkcja losowania liter(i ich numeracji) oraz ilość danych do załadowania
 
 						Screeny aplikacji z telefonu - 3 ekran
@@ -73,7 +79,9 @@ api - określona funkcja losowania liter(i ich numeracji) oraz ilość danych do
 ![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki3/lab3_screeny/third.jpg)
 
 Trzeci ekran - progres krokowy, podział na 3 ekrany, elementy ActivityIndicator
+
 Na każdym ekranie znajduje się element ActivityIndicator różnorako wystylizowany, przyciski na górze ekranu są odpowiedzialne za przenoszenie się pomiędzy stronami.
+
 Pliki:
 StepProgress - ustawienie ekranów za pomocą react-navigation, ich rozmieszczenia jak i np. domyślnej strony
 First - wygląd pierwszego ekranu, element AcitivityIndicator oraz opcje navigationOptions(tytuł headera, przyciski do zmiany strony na poprzednią/kolejną)
