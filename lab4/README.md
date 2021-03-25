@@ -1,4 +1,4 @@
-							Sprawozdanie nr.3
+							Sprawozdanie nr.4
 							
 1. Do zadania wykorzystano Expo. Na telefonie poprzez aplikację Expo GO.
 2. Aplikacja posiada 5 ekranów. 
