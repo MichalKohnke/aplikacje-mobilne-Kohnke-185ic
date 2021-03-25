@@ -14,10 +14,15 @@ Na tym ekranie mamy do czynienia z różnymi typami inputów.
 Plik:
 
 TextInput(1 ekran)- znajdziemy tu inputy różnego typu: 
+
 klasyczny, 
+
 wykropkowany(do haseł, secureTextEntry),
+
 returnKeyType(określa jak ma być wyświetlany klucz), 
+
 input z placeholderem(tekst wyświetlany domyślnie, przed wpisywaniem), 
+
 input z opcją onChangeText i onSubmitEditing(onChangeText zwraca od razu wpisywany tekst do wskazanego miejsca, onSubmitEditing zwraca tekst we wskazane miejsce po wciśnięciu przycisku wyślij) i zastosowana do nich opcja onFocus
 
 						Screeny aplikacji z telefonu - 2 ekran
