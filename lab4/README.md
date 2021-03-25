@@ -1,63 +1,75 @@
 							Sprawozdanie nr.3
 							
-1.Do zadania wykorzystano Expo. Na telefonie poprzez aplikację Expo GO.
-
-2. Aplikacja posiada 3 ekrany główne, trzeci jest podzielony na kolejne 3. 
+1. Do zadania wykorzystano Expo. Na telefonie poprzez aplikację Expo GO.
+2. Aplikacja posiada 5 ekranów. 
+3. Obsługa danych wprowadzanych przez użytkownika + modale.
 
 						Screeny aplikacji z telefonu - 1 ekran
-![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki3/lab3_screeny/listcontainer.jpg)
-![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki3/lab3_screeny/search.jpg)
+![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/lab4/lab4_screeny/1ekran.jpg)
 
-Pierwszy ekran - sortowanie i filtrowanie danych; 100 liczb pseudolosowych:
+Pierwszy ekran - "przegląd" możliwości komponentu 'TextInput':
 
-Sortowanie poprzez strzałkę w prawym górnym rogu, filtrowanie przez wyszukiwanie(czy wpisana liczba zawiera się w którejś z wylosowanych).
+Na tym ekranie mamy do czynienia z różnymi typami inputów.
 
-Pliki do 1 ekranu:
+Plik:
 
-ListContainer-główny "pojemnik", do wyświetlenia wszystkiego na ekranie i do niego podpięte są kolejne komponenty, tu znajdziemy też funkcje losowania liczb czy warunki sortowania
-
-List - określa sposób wyświetlania listy i pobiera jej elementy, tu również podpięty jest kolejny komponent
-
-ListControls - komponent obsługujący zmiany stanu listy(filtrowanie czy sortowanie), przekazywany do list, pobierający komponenty ListFilter i ListSort
-
-ListFilter - komponent określający/sterujący filtrowaniem listy, tu też zdefiniowana wyszukiwarka
-
-ListSort - podobnie jak wyżej, komponent sterujący sortowaniem listy, zdefiniowany przycisk do sortowania
+TextInput(1 ekran)- znajdziemy tu inputy różnego typu: 
+klasyczny, 
+wykropkowany(do haseł, secureTextEntry),
+returnKeyType(określa jak ma być wyświetlany klucz), 
+input z placeholderem(tekst wyświetlany domyślnie, przed wpisywaniem), 
+input z opcją onChangeText i onSubmitEditing(onChangeText zwraca od razu wpisywany tekst do wskazanego miejsca, onSubmitEditing zwraca tekst we wskazane miejsce po wciśnięciu przycisku wyślij) i zastosowana do nich opcja onFocus
 
 						Screeny aplikacji z telefonu - 2 ekran
-![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki3/lab3_screeny/lazy.jpg)
+![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/lab4/lab4_screeny/2ekran.jpg)
+![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/lab4/lab4_screeny/2ekran_2.jpg)
 
-Drugi ekran - leniwe ładowanie na przykładzie pseudolosowych liter(podpisanych numeracją)
-
-Leniwe ładowanie działa w sposób, w którym na początku ładowana jest określona ilość danych, a gdy jest potrzeba wyświetlenia kolejnych(wykona się konkretna akcja), są one "doładowywane". 
-
-Pliki do 2 ekranu:
-
-ListContainerLazy - ponownie główny "pojemnik", pobiera listę i funkcję i wyświetla ekran
-
-ListLazy - określa sposób wyświetlania listy i przekazuje do ListContainerLazy, właściwość onEndReached wykorzystana do leniwego ładowania
-
-api - określona funkcja losowania liter(i ich numeracji) oraz ilość danych do załadowania
-
-						Screeny aplikacji z telefonu - 3 ekran
-![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki3/lab3_screeny/first.jpg)
-![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki3/lab3_screeny/second.jpg)
-![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki3/lab3_screeny/third.jpg)
-
-Trzeci ekran - progres krokowy, podział na 3 ekrany, elementy ActivityIndicator
-
-Na każdym ekranie znajduje się element ActivityIndicator różnorako wystylizowany, przyciski na górze ekranu są odpowiedzialne za przenoszenie się pomiędzy stronami.
+Drugi ekran - komponenty Select
 
 Pliki:
 
-StepProgress - ustawienie ekranów za pomocą react-navigation, ich rozmieszczenia jak i np. domyślnej strony
+SelectingOptions(2 ekran) - wykorzystany komponent Select, deklaracja dwóch zmiennych do list rozwijanych z opcjami do wyboru oraz kolejne zmienne do zmiany stanów(inne opcje zależnie od wyborów), wyświetlanie wszystkiego na 2 ekranie
 
-First - wygląd pierwszego ekranu, element AcitivityIndicator oraz opcje navigationOptions(tytuł headera, przyciski do zmiany strony na poprzednią/kolejną)
+Select - deklaracja działania i wyglądu komponentu select
 
-Second - podobnie jak wyżej, odpowiednio dostosowane opcje navigationOptions pod drugi ekran oraz inaczej wystylizowany element AcitivityIndicator
+						Screeny aplikacji z telefonu - 3 ekran
+![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/lab4/lab4_screeny/3ekran.jpg)
+![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/lab4/lab4_screeny/3ekran_2.jpg)
 
-Third - jak wyżej
+Trzeci ekran - obsługa przełącznika 'Switch', modal z pseudolosową liczbą
 
-ProgressBar - zdefiniowany pasek progresu(zmieniający się w zależności od ekranu, na którym się znajdujemy)
+Na ekranie znajduje się przełącznik Switch, który otwiera modal, na modalu wyświetlana jest pseudolosowa liczba oraz kolejny przełącznik, aby zamknąć modal.
 
-ProgressBarComponent - komponent definiujący pasek pod androida
+Pliki:
+
+EkrSwitch(3 ekran) - wykorzystuje komponent Switch, znajdziemy tu zmienne wykorzystywane do zmiany stanów, <Modal> do obsługi i wyświetlania modalu oraz <Switch>, aby użyć przełącznik switch, znajdziemy też wyrażenie do losowania pseudolosowej liczby,
+
+Switch - deklaracja działania i wyglądu komponentu switch
+
+						Screeny aplikacji z telefonu - 4 ekran
+![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/lab4/lab4_screeny/4ekran.jpg)
+![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/lab4/lab4_screeny/4ekran_2.jpg)
+![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/lab4/lab4_screeny/4ekran_3.jpg)
+
+Czwarty ekran - wybór daty i czasu oraz alert z wybranymi parametrami czasowymi
+
+Na ekranie znajdują się dwa przyciski, jeden po wciśnięciu wyświetla kalendarz oraz po tym zegar do wyboru daty i czasu, natomiast drugi służy do wyświetlenia wybranych parametrów na alercie.
+
+Plik:
+
+DateTime - wyświetlanie wszystkiego opisanego wyżej, użyte komponenty DateTimePicker do daty i czasu oraz Alert do wyświetlania alertu
+
+						Screeny aplikacji z telefonu - 5 ekran
+![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/lab4/lab4_screeny/5ekran.jpg)
+![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/lab4/lab4_screeny/5ekran_2.jpg)
+![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/lab4/lab4_screeny/5ekran_3.jpg)
+
+Piąty ekran - aktywny modal + pasywne powiadomienia(ToastAndroid)
+
+Na ekranie znajduje się odnośnik do aktywnego modala, na którym wyświetlany jest element ActivityIndicator, poniżej znajduje się tekst do zliczania wciśnięć oraz tekst, który po kliknięciu wyświetli powiadomienie.
+
+Pliki:
+
+PassiveNotifications(5 ekran) - wykorzystując dodatkowe komponenty, wyświetlamy opisane wyżej elementy,  użycie funkcji setTimeout() na czas trwania Promise(w tym czasie wyświetlany aktywny modal) 
+Notification - komponent, określający działanie i własności powiadomienia(ToastAndroid)
+Acitivity - komponent, który określa wygląd i działanie modala wraz z własnościami, razem z elementem AcitivityIndicator
