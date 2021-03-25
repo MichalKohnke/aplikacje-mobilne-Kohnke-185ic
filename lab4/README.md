@@ -76,5 +76,7 @@ Na ekranie znajduje się odnośnik do aktywnego modala, na którym wyświetlany 
 Pliki:
 
 PassiveNotifications(5 ekran) - wykorzystując dodatkowe komponenty, wyświetlamy opisane wyżej elementy,  użycie funkcji setTimeout() na czas trwania Promise(w tym czasie wyświetlany aktywny modal) 
+
 Notification - komponent, określający działanie i własności powiadomienia(ToastAndroid)
+
 Acitivity - komponent, który określa wygląd i działanie modala wraz z własnościami, razem z elementem AcitivityIndicator
