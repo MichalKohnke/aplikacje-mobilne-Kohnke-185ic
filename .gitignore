@@ -1,0 +1,18 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+lab1/
+labki2/
+labki3/
+lab4/
+READMEZAPAS.txt
+
+# macOS
+.DS_Store
