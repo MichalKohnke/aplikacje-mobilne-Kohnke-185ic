@@ -15,6 +15,7 @@ Użycie tego komponentu pozwala na wyświetlenie listy elementów, którą będz
 Plik:
 
 ScrollV1(1 ekran) - użycie elementu <ScrollView>, aby wykorzystać możliwości komponentu 
+	
 ScrollV2(2 ekran) 
 
 						Screeny aplikacji z telefonu - 3 ekran
