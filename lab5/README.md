@@ -2,7 +2,7 @@
 							
 1. Do zadania wykorzystano Expo. Na telefonie poprzez aplikację Expo GO.
 2. Aplikacja posiada 4 ekrany. 
-3. Obsługa obrazów + tryb offline.
+3. Obsługa gestów użytkownika.
 
 						Screeny aplikacji z telefonu - 1 ekran i 2 ekran
 ![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/lab5/lab5_screeny/screen1.jpg)
