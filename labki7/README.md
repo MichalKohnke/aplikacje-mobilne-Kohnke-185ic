@@ -30,12 +30,12 @@ Tworzenie bazy w momencie uruchomienia aplikacji.
 
             Wariant drugi:
             
-            Wykorzystanie istniejącej już bazy danych user_db.db. Ścieżka do bazy(utworzone assets): lab7_2\android\app\src\main\assets\www
+    Wykorzystanie istniejącej już bazy danych user_db.db. Ścieżka do bazy(utworzone assets): lab7_2\android\app\src\main\assets\www
             
 						Ekran główny
 ![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki7/lab7_screeny/2_1.png)
 
-						Wyświetlenie danych użytkowników(wprowadzonych przy tworzeniu bazy danych) - komponent ViewAllUser
+			Wyświetlenie danych użytkowników(wprowadzonych przy tworzeniu bazy danych) - komponent ViewAllUser
 ![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki7/lab7_screeny/2_3.png)
 
 						Rejestracja nowego użytkownika - komponent RegisterUser
