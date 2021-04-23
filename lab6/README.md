@@ -23,7 +23,9 @@ Drugi ekran - komponent Slider, zmiana rozmiaru obrazka:
 Plik:
 
 Resizing(2 ekran):
+
 -poprzez useState ustawiamy domyślną wielkość obrazka,
+
 -komponent Slider pozwala na bieżąco modyfikować wymiary zdjęcia za pomocą suwaka, posiada wartości minimumValue i maximumValue
 
 						Screeny aplikacji z telefonu - 3 ekran
