@@ -44,7 +44,7 @@ Tworzenie bazy w momencie uruchomienia aplikacji.
 						Aktualizowanie danych użytkownika - komponent UpdateUser
 ![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki7/lab7_screeny/2_4.png) 
 
-						Wyświetlenie danych konkretnego użytkownika(w tym przypadku zaktualizowanego chwilę wcześniej) - komponent ViewUser
+			Wyświetlenie danych konkretnego użytkownika(w tym przypadku zaktualizowanego chwilę wcześniej) - komponent ViewUser
 ![alt text](https://github.com/MichalKohnke/aplikacje-mobilne-Kohnke-185ic/blob/master/labki7/lab7_screeny/2_6.png) 
 
 						Usuwanie użytkownika - komponent DeleteUser
